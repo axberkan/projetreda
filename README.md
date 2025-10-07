@@ -1,6 +1,6 @@
 # projetreda
-<!-- 
-📝 User Story
+
+## User Story
 
 Titre : Refroidissement du réacteur par vanne TOR
 
@@ -8,7 +8,7 @@ En tant que opérateur de conduite d’un réacteur chimique,
 Je veux que la température du réacteur soit surveillée et que la vanne de refroidissement s’ouvre ou se ferme automatiquement,
 Afin de maintenir la température dans une plage de sécurité et assurer la qualité du produit.
 
-🎯 Critères d’acceptation
+## Critères d’acceptation
 Capteur :
 
 Une sonde de température (PT100) mesure en continu la température du réacteur.
@@ -25,7 +25,7 @@ Si la température descend sous  250°C, la vanne se ferme pour éviter un sur-r
 
 Si la sonde est défaillante, une alarme est générée et la vanne se met en position de sécurité (ouverte).
 
-✅ Comportement attendu
+## Comportement attendu
 
 T° > 200 °C → la vanne s’ouvre (refroidissement actif).
 
